@@ -15,7 +15,7 @@
 
 .section__introdu {
     width: 100%;
-    height: 600px;
+    height: 37.5em;
     background-image: url("banner\ introdu.png");
 }
 
@@ -45,6 +45,8 @@
 
 .section__solucao {
     background-color: var(--cor-fundo);
+    width: 100%;
+    height: 30em;
 }
 .elementos__solucao {
     display: flex;
@@ -77,7 +79,7 @@
 
 .section__objetivos {
     width: 100%;
-    height: 600px;
+    height: 30em;
     background-color: var(--cor-fundo);
 }
 
@@ -111,7 +113,7 @@
 .section__publico {
     background-color: var(--cor-fundo);
     width: 100%;
-    height: 600px;
+    height: 40em;
 }
 .elementos__publico {
     display: flex;
@@ -139,7 +141,7 @@
 .section__dados {
     background-color: var(--cor-fundo);
     width: 100%;
-    height: 500px;
+    height: 25em;
 }
 
 .elementos__dados {
@@ -168,4 +170,48 @@
     font-size: 20px;
     color: var(--cor--primaria);
     font-family: "Inter", sans-serif;
+}
+
+.section__beneficios {
+    background-color: var(--cor-fundo);
+    width: 100%;
+    height: 25em;
+}
+
+.elementos__beneficios {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em;
+}
+.elementos__beneficios h2 {
+    font-size: 30px;
+    width: 350px;
+    font-family: "Inter", sans-serif;
+    color: var(--cor--primaria);
+}
+.elementos__beneficios img {
+    width: 300px;
+    height: 300px;
+}
+.elementos__beneficios li {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    width: 300px;
+    color: var(--cor--primaria);
+}
+
+.section__rodape {
+    background-color: var(--cor-fundo);
+    width: 100%;
+    height: 7.1em;
+}
+.elementos__rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3em;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    color: var(--cor--primaria);
 }
