@@ -41,7 +41,6 @@ new Chart(ctxOX, {
     }
 })
 
-
 var ctxSal = document.getElementsByClassName("sal__chart");
 new Chart(ctxSal, {
     type: 'bar',
@@ -83,3 +82,24 @@ new Chart(ctxTemp, {
     ]
     }
 })
+
+function abrirVideo() {
+    alert("Veja o Video abaixo no Youtube.")
+    const videoDiv = document.querySelector('.video__introducao');
+    const videoYou = document.createElement('iframe');
+    videoYou.src = 'https://www.youtube.com/embed/OAamTd9Z4vE?si=jR_o2UCZ4iF733mr';
+    videoDiv.appendChild(videoYou);
+}
+
+const swiper = new Swiper('.swiper', {
+    slidesPerView: 1,
+    spaceBetween: 1,
+    autoplay: {
+        delay: 1500,
+    },
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+});
