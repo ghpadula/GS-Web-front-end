@@ -98,8 +98,4 @@ const swiper = new Swiper('.swiper', {
         delay: 1500,
     },
     loop: true,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
 });
