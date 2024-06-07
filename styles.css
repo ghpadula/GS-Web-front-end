@@ -243,6 +243,122 @@
     color: var(--cor--primaria);
 }
 
+
+.body__login {
+    background-color: var(--cor-fundo);
+    background-repeat: no-repeat;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;  
+    background-color: white;
+    padding: 2.5em;
+    width: 15em;
+    border-radius: 20px;
+    margin-top: 9.3em;
+}
+.titulo__login {
+    margin-bottom: 1em;
+}
+.acesso_conta{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.7em;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #585858;
+}
+.acesso_conta h3 {
+    margin-top: 1em;
+}
+.input__email {
+    margin-bottom: 1em;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+.input__password{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.botao__login {
+    width: 180px;
+    height: 35px;
+    background-color: #35B6FF;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.botao__login:hover {
+    background-color: #b6a7ee;
+}
+.login__container p {
+    font-family: 'Inter';
+    font-size: 12px;
+}
+
+
+.registro{
+    display: flex;
+    justify-content: center;
+}
+.registro__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    background-color: white;
+    padding: 2.5em;
+    width: 15em;
+    border-radius: 20px; 
+    font-family: 'Inter';
+    margin-top: 9em;
+}
+.registro__container h2 {
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    color: #585858;
+}
+.formulario_registro input {
+    border-color: rgb(100, 97, 97);
+    border-radius: 5px;
+}
+.body__registro {
+    background-color: var(--cor-fundo);
+    background-repeat: no-repeat;
+}
+.botao__registro {
+    margin: 1em 0 0 2em;
+
+    width: 180px;
+    height: 35px;
+    background-color: #35B6FF;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.botao__registro:hover {
+    background-color: #b6a7ee;
+}
+
+
+
+
 @media screen and ( max-width: 700px){
     .section__introdu{
         min-height: 600px;
@@ -431,5 +547,11 @@
     }
     .elementos__rodape {
         margin-right: 3.5em;
+    }
+    .login__container {
+        margin-top: 20em;
+    }
+    .registro__container {
+        margin-top: 20em;
     }
 }
